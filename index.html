@@ -10,6 +10,8 @@
 <v-app id="app">
     <v-app-bar app clipped-left color="gray" dense v-if="isShowTop">
         <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+        <!-- 去掉无用的顶部按钮 -->
+        <!-- 
         <div id="recompiling"><span>Recompiling...</span></div>
         <v-spacer></v-spacer>
         <div class="toolbar">
@@ -55,7 +57,8 @@
             <v-icon @click="openCocosForum" small>mdi-forum</v-icon>
             <v-icon @click="openCacheDialog" small>mdi-table</v-icon>
             <v-icon @click="openGithub" small>mdi-home</v-icon>
-        </div>
+        </div> 
+        -->
     </v-app-bar>
     
     <div v-if="!isShowTop">
