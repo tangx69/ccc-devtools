@@ -5,7 +5,7 @@ const app = new Vue({
     }),
     data: {
         isShowTop: true,
-        drawer: false,
+        drawer: true,
         cacheDialog: false,
         cacheTitle: '',
         cacheHeaders: [
